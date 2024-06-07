@@ -7,11 +7,12 @@ output "vpc_id" {
   description = "Output the ID for the primary VPC"
   value       = aws_vpc.vpc.id
 }
-
+/*
 output "public_url" {
   description = "Public URL for our Web Server"
   value       = "https://${aws_instance.web_server.public_ip}:8080/index.html"
 }
+*/
 
 output "vpc_information" {
   description = "VPC Information about Environment"
